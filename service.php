@@ -14,14 +14,14 @@
               <div class="container-fluid color-cover h-100">
                   <div class="row h-100 align-items-center">
                       <div class="col-12 text-center">
-                          <div class="text-dark display-6 fw-bold mb-5">LA PLATE-FORME VOUS FOURNIT UNE LARGE <br> GAMME DE SOLUTION DE RÉSERVATION DE VOS TICKETS
+                          <div class="text-dark display-6 fw-bold mb-5 ">LA PLATE-FORME VOUS FOURNIT UNE LARGE <br> GAMME DE SOLUTION DE RÉSERVATION DE VOS TICKETS
                          </div>
                       </div>
                   </div>
               </div>
         </header>
         <div class="main">
-        <div class="container-fluid bg-color-cover h-50 mt-5 py-5">
+          <div class="container-fluid bg-color-cover h-50 mt-5 py-5">
                     <div class="row h-100 align-items-center">
                         <div class="col-12 text-center">
                             <h3 class=" display-7 fw-bold mb-2">Une plate-forme de réservation des tickets intelligente et éfficace </h3>
@@ -54,7 +54,7 @@
                     </div>
               </div>
               <div class="container">
-                  <img src="./img/kara1.jpeg" class="mt-5 mx-auto d-block img-fluid " alt="...">>
+                  <img src="./img/kara1.jpeg" class="mt-5 mx-auto d-block img-fluid " alt="...">
               </div>
               <div class="container intro-content mt-5">
                 <div class="row">
@@ -72,52 +72,66 @@
                   </div><!-- /.col-md-6 -->
                 </div>
               </div>
-              <div class='container pt-5 '>
-                  <div class="header  text-center">
-                        <h5 class="title display-7 fw-bold lh-1 mb-3 mt-3">NOS DIFFÉRENTS BUS </h5>
-                  </div>
-                  <div class="row pb-3  mx-auto">
-                        <div class="col-md-4 mt-3">
-                           <img class="profile text-center" src="./img/images(11).jpeg" alt="">
+              <div class='container-fluid bg-white pt-5 mt-5 '>
+                 <div class="container">
+                    <div class="header  text-center">
+                            <h5 class=" display-7 fw-bold  ">NOS DIFFÉRENTS BUS </h5>
+                    </div>
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <div class="row pb-3  mx-auto">
+                                    <div class="col-md-4 mt-3 ">
+                                    <img src="./img/bus1.png" alt="">
+                                    </div>
+                                    <div class="col-md-4 mt-3">
+                                    <img src="./img/images15.png" alt="">
+                                    </div>
+                                    <div class="col-md-4 mt-3">
+                                    <img src="./img/images16.jpeg" alt="">
+                                    </div>
+                            </div>
+                            </div>
+                            <div class="carousel-item">
+                            <div class="row pb-3  mx-auto">
+                                            <div class="col-md-4 mt-3 ">
+                                                <img src="./img/bus1.png" alt="">
+                                            </div>
+                                            <div class="col-md-4 mt-3">
+                                                <img src="./img/images15.png" alt="">
+                                            </div>
+                                            <div class="col-md-4 mt-3">
+                                                <img src="./img/images16.jpeg" alt="">
+                                            </div>
+                                    </div>
+                            </div>
+                            <div class="carousel-item">
+                                 <div class="row pb-3  mx-auto">
+                                    <div class="col-md-4 mt-3 ">
+                                        <img src="./img/bus1.png" alt="">
+                                    </div>
+                                    <div class="col-md-4 mt-3">
+                                        <img src="./img/images15.png" alt="">
+                                    </div>
+                                    <div class="col-md-4 mt-3">
+                                        <img src="./img/images16.jpeg" alt="">
+                                    </div>
+                               </div>
+                            </div>
                         </div>
-                        <div class="col-md-4 mt-3">
-                          <img class="profile text-center" src="./img/images(10).jpeg" alt="">
-                        </div>
-                        <div class="col-md-4 mt-3">
-                          <img class="profile text-center" src="./img/images(16).jpeg" alt="">
-                        </div>
-                  </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                   </div>
               </div>
-              <div class="container-fluid bg-color-cover-bleu h-50 mt-5 py-5">
-                    <div class="row h-100 align-items-center">
-                        <div class="col-12 text-center">
-                            <h3 class=" display-7 fw-bold mb-2 text-white">Vous recherchez le meilleur prix associé à une qualité de service élevée ? </h3>
-                            <div class= "text-center text-white" >Trouver un service de haute qualité au meilleur prix, c’est la raison pour laquelle notre </div>
-                            <div class="text-center text-white">plate-forme est incomparable.</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container intro-content mt-5">
-                <div class="row">
-                    <div class="col-md-6 col-ms-3 align-self-center">
-                      <img class = 'image-deux d-block mx-lg-auto img-fluid'src="./img/bus4.jpeg" alt="">
-                      <div class="text-center">
-                            <button type="submit" class="btn btn-ligth btn-block btn-lg bouton mt-3">J’ai bésoin d’un bus </button>
-                      </div>
-                    </div><!-- /.col-md-6 -->
-                    <div class="col-md-6 col-ms-3 ml-auto mt-3">
-                          <img class = 'image-deux d-block mx-lg-auto img-fluid'src="./img/imge-actu-1.jpeg" alt="">
-                          <div class="text-center">
-                             <button type="submit" class="btn btn-ligth btn-block btn-lg bouton mt-3">J’ai des bus </button>
-                          </div>
-                    </div>
-                </div><!-- /.col-md-6 -->
-            </div>
+     </div>
        
-            <?php include './php/footer.php'?>
-
-       
+     <?php include './php/footer.php'?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
 </html>
