@@ -1,0 +1,86 @@
+
+body{
+    background-color:#F4F3F3 ;
+}
+.logo{
+    color: #2124B1;
+    font-size: 40px;
+    font-weight: 500;
+}
+.bg-color{
+    width: 100%;
+    height:4vh;
+    background-color:#373AB9;
+}
+.boutton{
+    border-radius:40px ;
+    background-color:#373AB9;
+    color: white;
+    height: 5vh;
+}
+.acceuil-bg-image{
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+}
+.color-cover-cendre{
+    background-color: #000000;
+    opacity: 25%;
+}
+.cherchez{
+    border-radius:50px ;
+    background-color:#2124B1;
+    color: white;
+}
+.image-un{
+    border-radius: 35px;
+}
+.bg-color-cover{
+    background-color: #D1D1D1;
+}
+.bg-color-cover-bleu{
+    background-color: #373AB9;
+    opacity: 80%;
+}
+.image-deux{
+    border-radius: 35px;
+    width: 551px;
+    height: 337px;
+}
+.bouton{
+    border: 1px solid #373AB9;
+    border-radius:50px
+}
+.bg-color-cover-bleue{
+    background-color:#373AB9;
+    color: white;
+
+}
+.etape{
+    border-radius:30px ;
+    height: 25vh;
+}
+
+
+/*********service*****************************/
+.service-bg-image{
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('../img/kara2.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.color-cover{
+    background-color: #D9D9D9;
+    opacity: 50%;
+}
+.avis{
+    color: #373AB9;
+}
