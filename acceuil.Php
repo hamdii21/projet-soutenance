@@ -46,7 +46,7 @@
                     </div>
                   </div><!-- /.col-md-6 -->
                 </div>
-              </div>
+             </div>
           
           
               <div class="container-fluid bg-color-cover h-50 mt-5 py-5">
@@ -58,57 +58,55 @@
                         </div>
                     </div>
               </div>
-              <div class='container pt-5 '>
-                  <div class="header  text-center">
-                        <h5 class="title display-7 fw-bold lh-1 mb-3 mt-3">Planifiez votre déplacement en seulement 4 étapes. </h5>
-                   </div>
-                  <div class="row pb-3">
-                    <div class="col-md-3 mt-3">
-                         <div class="card shadow etape">
-                              <div class="card-body p-0">
-                                      <img class="profile text-center" src="./img/Bus Width.png" alt="">
-                                      <h4 class="text-center mt-3">1.</h4>
-                                      <p class="text-dark  text-center">
-                                      Vérifiez les horaires et les prix des tickets de bus qui vous convient
-                                      </p>
-                              </div>
-                          </div>
-                    </div>
-                     <div class="col-md-3 mt-3">
-                     <div class="card  shadow etape">
-                              <div class="card-body  p-0">
-                                     <img class="profile text-center" src="./img/info.png" alt="">
-                                      <h4 class="text-center mt-3">2.</h4>
-                                      <p class="text-dark  text-center">
-                                      Renseignez vos coordonnées des voyageurs et du payeur
-                                      </p>
+        
+
+                <section id ="team">
+                    <div class="container pt-5 pb-1 text-center">
+                        <div class="row">
+                            <h3 class ="mb-4" style ="color:#373AB9">Planifiez votre déplacement <br> en seulement 4 étapes.</h3>
+                        </div>
+                        <div class="row mb-5">
+                           <div class="col-lg-3 col-md-6">
+                               <div class="card carte shadow mt-3">
+                                   <div class="card-body">
+                                       <img src="./img/Bus Width.png" alt="" classe ="image-fluid rounded circle w-50 mb-3">
+                                       <h3>1.</h3>
+                                       <p>cherchez les trajets  de   voyage qui vous convient</p>
+                                   </div>
                                </div>
-                      </div>
-                     </div>
-                      <div class="col-md-3 mt-3">
-                          <div class="card shadow etape">
-                              <div class="card-body  p-0">
-                                     <img class="profile text-center" src="./img/money.png" alt="">
-                                      <h4 class="text-center mt-3">3.</h4>
-                                      <p class="text-dark  text-center">
-                                          Vérifiez les informations remplit dans le formulaire et payez
-                                      </p>
-                              </div>
-                          </div>
-                      </div>
-                     <div class="col-md-3 mt-3">
-                     <div class="card shadow etape">
-                              <div class="card-body p-0">
-                                     <img class="profile text-center" src="./img/money.png" alt="">
-                                      <h4 class="text-center mt-3">3.</h4>
-                                      <p class="text-dark  text-center">
-                                          Vérifiez les informations remplit dans le formulaire et payez
-                                      </p>
-                              </div>
-                      </div>
-                     </div>
-                  </div>
-              </div>
+                           </div>
+                           <div class="col-lg-3 col-md-6">
+                               <div class="card carte shadow mt-3">
+                                   <div class="card-body">
+                                       <img src="./img/info.png" alt="" classe ="image-fluid rounded circle w-50 mb-3">
+                                       <h3>1.</h3>
+                                       <p>Inscrivez-vous en remplissant vos coordonnées</p>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="col-lg-3 col-md-6">
+                               <div class="card carte shadow mt-3">
+                                   <div class="card-body">
+                                       <img src="./img/money.png" alt="" classe ="image-fluid rounded circle w-50 mb-3">
+                                       <h3>1.</h3>
+                                       <p> Reservez en remplissant les inforrmations</p>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="col-lg-3 col-md-6">
+                               <div class="card carte shadow mt-3">
+                                   <div class="card-body">
+                                       <img src="./img/money.png" alt="" classe ="image-fluid rounded circle w-50 mb-3">
+                                       <h3>1.</h3>
+                                       <p> Vérifiez les inforrmations de réservation et télécharger le ticket</p>
+                                   </div>
+                               </div>
+                           </div>
+                        </div>
+                        
+                    </div>
+                </section>
+
               <div class="container-fluid bg-color-cover-bleu h-50 mt-5 py-5">
                     <div class="row h-100 align-items-center">
                         <div class="col-12 text-center">
@@ -135,6 +133,8 @@
                     </div>
                 </div><!-- /.col-md-6 -->
             </div>
+        </div>
+
 
             <?php include './php/footer.php'?>
 

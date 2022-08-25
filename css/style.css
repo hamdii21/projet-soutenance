@@ -64,6 +64,9 @@ body{
     border-radius:30px ;
     height: 25vh;
 }
+.carte{
+    border-radius: 30px;
+}
 
 
 /*********service*****************************/
@@ -84,3 +87,6 @@ body{
 .bg-white{
     background-color: white;
 }
+
+
+/***************reservation********************/

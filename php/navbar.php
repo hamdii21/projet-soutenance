@@ -12,22 +12,22 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                     <ul class="navbar-nav mx-auto mb-2 p-5 mb-lg-0">
                         <li class="nav-item">
-                        <a class="nav-link " href="#">ACCEUIL</a>
+                        <a class="nav-link " href="acceuil.php">ACCEUIL</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link  ">FONCTIONNEMENT</a>
+                        <a class="nav-link "href=" ">FONCTIONNEMENT</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link " href="#">A  PROPOS</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link " href="#">INSCRIPTION</a>
+                        <a class="nav-link " href="service.php">A  PROPOS</a>
                         </li>
                         <li class="nav-item">
                         <a class="nav-link " href="#">CONTACT</a>
                         </li>
                     </ul>
-                    <a href="#form-inscription"><button class="btn btn-outline-success boutton  " type="submit">CONNECTER</button></a>
+                    <form class="d-flex">
+                        <button class="btn btn-outline-success boutton me-5" type="submit">S'INSCRIRE</button>
+                        <button class="btn btn-outline-success boutton" type="submit">CONNECTER</button>
+                   </form>
                 </div>
             </div>
        </nav>
