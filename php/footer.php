@@ -1,4 +1,4 @@
-<div class="footer">
+<div class="footer" id ="contact">
             <div class="container-fluid bg-color-cover-bleue h-50 mt-5 py-5">
                   <div class="container">
                     <div class="row">
@@ -19,6 +19,7 @@
                           <p>Tickets Lomé-Kara</p>
                         </div>
                         <div class="col-md-4">
+                          <h4 class= "mb-3">CONTACTEZ-NOUS</h4>
                         <form>
                           <div class="form-group">
                             <input type="email" class="form-control shadow" id="email" placeholder="Veuillez entrer votre nom">
@@ -30,7 +31,7 @@
                           <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" placeholder="Veuillez entrer votre message"></textarea>
                           </div>
                         <div class="text-center">
-                          <button type="submit" class="btn btn-success btn-block btn-lg cherchez mt-3">Rerchez</button>
+                          <button type="submit" class="btn btn-success btn-block btn-lg cherchez-un mt-3">Rerchez</button>
                         </div>
                       </form>
                     </div>

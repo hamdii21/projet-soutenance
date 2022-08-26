@@ -1,4 +1,3 @@
-
 body{
     background-color:#F4F3F3 ;
 }
@@ -12,11 +11,12 @@ body{
     height:4vh;
     background-color:#373AB9;
 }
+
 .boutton{
     border-radius:40px ;
     background-color:#373AB9;
     color: white;
-    height: 5vh;
+    height: 6vh;
 }
 .acceuil-bg-image{
     height: 100vh;
@@ -33,7 +33,12 @@ body{
 }
 .cherchez{
     border-radius:50px ;
-    background-color:#2124B1;
+    background-color:#373AB9;
+    color: white;
+}
+.cherchez-un{
+    border-radius:50px ;
+    background-color:#1E1E1E;
     color: white;
 }
 .image-un{
@@ -53,7 +58,8 @@ body{
 }
 .bouton{
     border: 1px solid #373AB9;
-    border-radius:50px
+    border-radius:50px;
+    color:  #373AB9;
 }
 .bg-color-cover-bleue{
     background-color:#373AB9;

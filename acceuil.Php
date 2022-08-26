@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
-         <?php include './php/navbar.php'?>
+  <?php include './php/navbar.php'?>
 
         <header class="acceuil-bg-image d-block mx-lg-auto img-fluid">
               <div class="container-fluid color-cover-cendre h-100">
@@ -30,19 +30,33 @@
                     <h2 class="mb-4">ACHAT DE TICKET DE BUS EN LIGNE FACILE</h2>
                       <div class="card-body text-dark">
                         <form>
-                          <div class="form-group">
-                            <input type="text" class="form-control shadow"  placeholder="Ville de départ">
+                            <div class="form-group">
+                              <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                                  <option selected>Ville-départ</option>
+                                  <option value="1">Tchamba</option>
+                                  <option value="2">Sokodé</option>
+                                  <option value="3">Kara</option>
+                                  <option value="3">Bafilo</option>
+                                  <option value="3">Lomé</option>
+                              </select>
+                            </div>
+                            <div class="form-group mt-3  shadow">
+                              <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                                    <option selected>Ville-destination</option>
+                                    <option value="1">Lomé</option>
+                                    <option value="2">Sokodé</option>
+                                    <option value="3">Kara</option>
+                                    <option value="3">Bafilo</option>
+                                    <option value="3">Tchamba</option>
+                                </select>
+                            </div>
+                            <div class="form-group mt-3 shadow">
+                              <input type="date" class="form-control" >
+                            </div>
+                           <div class="text-center">
+                             <button type="submit" class="btn btn-success btn-block btn-lg cherchez mt-3">Rerchez</button>
                           </div>
-                          <div class="form-group mt-3  shadow">
-                            <input type="text" class="form-control"  placeholder="Ville d'arrivée">
-                          </div>
-                          <div class="form-group mt-3 shadow">
-                            <input type="date" class="form-control" >
-                          </div>
-                        <div class="text-center">
-                        <button type="submit" class="btn btn-success btn-block btn-lg cherchez mt-3">Rerchez</button>
-                        </div>
-                        </form>
+                      </form>
                     </div>
                   </div><!-- /.col-md-6 -->
                 </div>
@@ -138,7 +152,7 @@
 
             <?php include './php/footer.php'?>
 
-       
+       <script src="./acceuil.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
 </html>

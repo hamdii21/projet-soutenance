@@ -14,12 +14,12 @@
                   <div class="row">
                   <div class="col-md-6 mx-auto">
                     <h3 class="text-center fw-bold mt-5 mb-4 ">Bienvenue sur la page d’inscription</h3>
-                    <div class="card w-90 shadow  " style ="background-color:#D9D9D9">
+                    <div class="card w-100   " style ="background-color:#D9D9D9">
                         <div class="card-body">
                             <form action="inscription_postulant.php" method="post">
                                 <div class="mb-3">
                                     <label for="InputName" class="form-label">Nom</label>
-                                    <input type="text" name="nom" class="form-control" id="InputName" required="" placeholder="Veuillez entrer votre nom">
+                                    <input type="text" name="nom" class="form-control " id="InputName"  required="" placeholder="Veuillez entrer votre nom">
                                 </div>
                                 <div class="mb-3">
                                     <label for="InputFirstName" class="form-label">Prénom</label>
@@ -38,7 +38,7 @@
                                     <input type="number" name="telephone" class="form-control" id="InputNumberWhatsap" required="" placeholder="Veuillez entrer votre nom">
                                 </div>
                                 <div class="text-center">
-                                   <a href="#form-inscription"><button class="btn btn-outline-success boutton me-5 " type="submit">CONNECTER</button></a>
+                                   <a href="#form-inscription"><button class="btn btn-outline-success bouton me-5 " type="submit">Annulé</button></a>
                                    <a href="#form-inscription"><button class="btn btn-outline-success boutton  " type="submit">CONNECTER</button></a>
                                 </div>
                             </form>
