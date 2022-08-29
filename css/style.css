@@ -14,7 +14,7 @@ body{
 
 .boutton{
     border-radius:40px ;
-    background-color:#373AB9;
+    background-color:#373AB9 !important;
     color: white;
     height: 6vh;
 }
@@ -27,6 +27,7 @@ body{
     background-repeat: no-repeat;
     display: block;
 }
+
 .color-cover-cendre{
     background-color: #000000;
     opacity: 25%;

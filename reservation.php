@@ -9,47 +9,12 @@
   </head>
   <body>
          <?php include './php/navbar.php'?>
-         <header class="reservation-bg-image d-block mx-lg-auto img-fluid">
-              <div class="container-fluid  h-100">
-              <div class="container">
-                  <div class="row">
-                  <div class="col-md-6 mx-auto">
-                    <h3 class="text-center  display-6 fw-bold mt-5 mb-4 ">Bienvenue sur la page de réservation</h3>
-                    <div class="card w-90 shadow  " style ="background-color:#D9D9D9">
-                        <div class="card-body">
-                            <form action="inscription_postulant.php" method="post">
-                                <div class="mb-3">
-                                    <label for="InputName" class="form-label">Nom</label>
-                                    <input type="text" name="nom" class="form-control" id="InputName" required="" placeholder="Veuillez entrer votre nom">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="InputFirstName" class="form-label">Numéro</label>
-                                    <input type="text" name="prenom" class="form-control" id="InputFirstName" required="" placeholder="Veuillez entrer votre prénom">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="InputEmail" class="form-label">Trajet</label>
-                                    <input type="email" name="email" class="form-control" id="InputEmail" required="" placeholder="Veuillez entrer votre mail">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="InputEmailConfirm" class="form-label">Date de réservation</label>
-                                    <input type="email" name="confirmation" class="form-control" id="InputEmailConfirm" required="" placeholder="Veuillez entrer le numéro">
-                                </div>
-                                <div class="text-center">
-                                   <a href="#form-inscription"><button class="btn btn-outline-success boutton  " type="submit">S'inscrire</button></a>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                  </div>
-              </div>
-              </div>
-        </header>
+       
               <div class="container">
                   <div class="row">
                   <div class="col-md-6 mx-auto">
                     <h3 class="text-center fw-bold mt-5 mb-4 ">Bienvenue sur la page de réservation</h3>
-                    <div class="card w-90 shadow  " style ="background-color:#D9D9D9">
+                    <div class="card w-90 shadow  ">
                         <div class="card-body">
                             <form action="inscription_postulant.php" method="post">
                                 <div class="mb-3">

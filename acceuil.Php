@@ -12,10 +12,11 @@
 
         <header class="acceuil-bg-image d-block mx-lg-auto img-fluid">
               <div class="container-fluid color-cover-cendre h-100">
-                  <div class="row h-100 align-items-center">
-                      <div class="col-12 text-center">
-                          <div class="text-white display-4 fw-bold mb-5">ACHÈTEZ VOS TICKETS DE BUS DÉPUIS 
-                        <br> VOTRE CONFORT VIA NOTRE PLATE-FORME</div>
+                  <div class="row h-100 align-items-center ">
+                      <div class="col-5 about-text mx-auto">
+                          <div class="text-white display-6 fw-bold mb-5">ACHÈTEZ VOS TICKETS DE BUS DÉPUIS 
+                          <br> VOTRE CONFORT VIA NOTRE PLATE-FORME</div>
+                          <a href="reservation.php"><button type="button"  class="btn btn-outline-success boutton text-white display-4 fw-bold">Réservez vos tickets</button></a>
                       </div>
                   </div>
               </div>
@@ -31,8 +32,8 @@
                       <div class="card-body text-dark">
                         <form>
                             <div class="form-group">
-                              <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-                                  <option selected>Ville-départ</option>
+                              <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example ">
+                                  <option >Ville-départ</option>
                                   <option value="1">Tchamba</option>
                                   <option value="2">Sokodé</option>
                                   <option value="3">Kara</option>
@@ -134,7 +135,7 @@
             <div class="container intro-content mt-5">
                 <div class="row">
                     <div class="col-md-6 col-ms-3 align-self-center">
-                      <img class = 'image-deux d-block mx-lg-auto img-fluid'src="./img/bus4.jpeg" alt="">
+                      <img class = 'image-deux d-block mx-lg-auto img-fluid'src="./img/voiture.jpg" alt="">
                       <div class="text-center">
                             <button type="submit" class="btn btn-ligth btn-block btn-lg bouton mt-3">J’ai bésoin d’un bus </button>
                       </div>

@@ -13,7 +13,7 @@
         <header class="service-bg-image d-block mx-lg-auto img-fluid">
               <div class="container-fluid color-cover h-100">
                   <div class="row h-100 align-items-center">
-                      <div class="col-12 text-center">
+                      <div class="col-lg-5 about-text mx-auto">
                           <div class="text-dark display-6 fw-bold mb-5 ">LA PLATE-FORME VOUS FOURNIT UNE LARGE <br> GAMME DE SOLUTION DE RÉSERVATION DE VOS TICKETS
                          </div>
                       </div>

@@ -4,7 +4,7 @@
                 <div class="d-flex flex-row-reverse ">
                     <div class="p-2 "> <img src="./img/Facebook.png" alt=""> </div>
                     <div class="p-2 "> <img src="./img/Linkedin.png" alt=""> </div>
-                    <div class="p-2 "> <img src="./img/WhatsApp" alt=""> </div>
+                    <div class="p-2 "> <img src="./img/WhatsApp.png" alt=""> </div>
                 </div>
             </div>
         </div>

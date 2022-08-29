@@ -14,7 +14,7 @@
                   <div class="row">
                   <div class="col-md-6 mx-auto">
                     <h3 class="text-center fw-bold mt-5 mb-4 ">Bienvenue sur la page d’inscription</h3>
-                    <div class="card w-100   " style ="background-color:#D9D9D9">
+                    <div class="card w-100  shadow " >
                         <div class="card-body">
                             <form action="inscription_postulant.php" method="post">
                                 <div class="mb-3">
@@ -37,9 +37,9 @@
                                     <label for="InputNumberWhatsap" class="form-label">Mot de passe</label>
                                     <input type="number" name="telephone" class="form-control" id="InputNumberWhatsap" required="" placeholder="Veuillez entrer votre nom">
                                 </div>
-                                <div class="text-center">
-                                   <a href="#form-inscription"><button class="btn btn-outline-success bouton me-5 " type="submit">Annulé</button></a>
+                                <div class="me-auto">
                                    <a href="#form-inscription"><button class="btn btn-outline-success boutton  " type="submit">CONNECTER</button></a>
+                                   <a href="#form-inscription"><button class="btn btn-outline-success boutton ms-auto  " type="submit">CONNECTER</button></a>
                                 </div>
                             </form>
                         </div>
